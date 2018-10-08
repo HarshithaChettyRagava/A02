@@ -22,4 +22,3 @@ Also, it has links of my Github,Bitbucket and linkedIn profile.
 To support index.html, i have Harshitha_ChettyRagava.css file for styling.
 To support newpage.html, i have game.css style sheet.
 To support contact.html, i have contact.css style sheet.
-
