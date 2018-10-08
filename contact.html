@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact</title>
+	<link rel="stylesheet" href="contact.css"/>
+	<!---This is bootstrap file-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>  
+      <nav class="navbar navbar-inverse" style="position: fixed;left: 0px;top: 0px; min-width: 100%;min-height: 50px;margin-bottom: 20px;">
+                <div class="container-fluid">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="">ChettyRagava</a>
+                            <a class="navbar-brand" href="index.html">Home</a>
+                            <a class="navbar-brand" href="newpage.html">Game Page</a>
+                            <a class="navbar-brand" href="#">Contact</a>
+                        </div>
+                </div>
+        </nav>
+        <br>
+  <h3>Contact Form</h3>
+ <div class="container">
+  <form onsubmit="alert('Thank You, We have received your information!')">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your first name.." 
+     pattern="[A-Za-z\s-]{0,}" title="only alphabets are allowed" required>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." 
+    pattern="[A-Za-z\s-]{0,}" title="only alphabets are allowed" required>
+
+    <label for="emial">Email Id</label>
+    <input type="text" id="email" name="email" placeholder="YourEmailId@domain.com" 
+    pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Enter valid mail id" required>
+
+    <label for="country">Country</label>
+    <select id="country" name="country" required>
+      <option value=""></option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="india">India</option>
+    </select>
+    <br>
+
+    <label for="subject">Subject-optional</label>
+    <textarea id="subject" name="subject" 
+    placeholder="Write something..This is optional..." style="height:200px"></textarea>
+
+    <input type="submit" name="Submit"></button>
+    <!-- <input type="button" onclick="myfunction()"></button> -->
+    <!--<input type="submit" name="Submit" onclick="('Thank you')"></button> --do not delete> -->
+    <br>
+  </form>
+</div>
+<section class="mylinks">
+<br>
+<a href="https://github.com/HarshithaChettyRagava"><img src="github.png" alt="GitHub link" width="40" height="40" border="0"></a><br><br>
+<a href="https://bitbucket.org/HarshithaChettyRagava/"><img src="download.png" alt="BitBucket link" width="40" height="40" border="0"></a><br><br>
+<a href="https://www.linkedin.com/in/harshitha-chetty-ragava/"><img src="linkedIn.png" alt ="LinkedIn link" width="40" height="40" border="0"></a><br><br>
+</section>
+</body>

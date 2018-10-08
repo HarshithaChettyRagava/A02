@@ -1,0 +1,75 @@
+.sectionheader{
+    text-align: center;
+    font: bold;
+    color: orange;   
+}
+
+body{
+    background-image: url("rename.jpg");
+}
+
+img{
+    border-radius: 50%;
+    max-height: 400px;
+    max-width: 400px;
+    width: 200px;
+    height: 200px;
+}
+.All{
+    color: yellow;
+}
+
+.colorit{
+    color: orange;
+}
+
+.container-fluid{
+    background-color: orange;
+    width: 100%;
+}
+
+/* #sectionheader{
+    color: black;
+} */
+#Aboutme{
+    padding: 20px;
+    color:orangered;
+    font: bold;
+    margin:5px;
+}
+
+.Pastsection{
+    border-style: solid;
+    color: black;
+    font-style: inherit; 
+    }
+
+.Schedule{
+    /* color: darkgreen; */
+    list-style-type: disc;
+    /* background-color: aqua; */
+
+}
+
+#VideoUpload{
+     /* text-align:center;
+     justify-content: center;
+     align-items: center;
+     box-align: center; */
+     align-items: center;
+     box-align: center;
+
+}
+.asideheader{
+    color: darkorange;
+}
+
+.tq{
+    text-align: center;
+}
+
+footer{
+    background-color: blueviolet;
+    color: azure;
+    font-style: initial;
+}
